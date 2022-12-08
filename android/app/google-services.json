@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "179503574269",
+    "project_id": "chatey-app",
+    "storage_bucket": "chatey-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179503574269:android:98245c721cdf86b0922294",
+        "android_client_info": {
+          "package_name": "com.example.chatey_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179503574269-fvo3b2j90hug089bo2j0qofp1htbg2m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1PVTaGoecKso1Z9cVelaDJWKUBb9qADI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179503574269-fvo3b2j90hug089bo2j0qofp1htbg2m4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "179503574269-4lcsmq363din3vtal04skg0a2vf3a0ph.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chateyChat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
