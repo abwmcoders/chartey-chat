@@ -1,4 +1,5 @@
 import 'package:chatey_chat/colors.dart';
+import 'package:chatey_chat/features/landing/landing.dart';
 import 'package:chatey_chat/firebase_options.dart';
 import 'package:chatey_chat/screens/mobile_layout_screen.dart';
 import 'package:chatey_chat/screens/web_layout_screen.dart';
@@ -25,10 +26,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: backgroundColor,
       ),
-      home: const ResponsiveLayout(
-        mobileScreenLayout: MobileLayoutScreen(),
-        webScreenLayout: WebLayoutScreen(),
-      ),
+      home: const LandingScreen(),
+      // home: const ResponsiveLayout(
+      //   mobileScreenLayout: MobileLayoutScreen(),
+      //   webScreenLayout: WebLayoutScreen(),
+      // ),
     );
   }
 }
